@@ -1,0 +1,22 @@
+  USE hr_source;
+  INSERT INTO hr_employees VALUES
+  ('E001','Aarav','Mehta','aarav.mehta@example.com','Finance','Finance Manager',NULL,'ACTIVE','2020-03-02',NULL),
+  ('E002','Priya','Nair','priya.nair@example.com','Finance','Accountant','E001','ACTIVE','2021-06-14',NULL),
+  ('E003','Rohan','Gupta','rohan.gupta@example.com','Finance','Accountant','E001','ACTIVE','2022-02-01',NULL),
+  ('E004','Sneha','Iyer','sneha.iyer@example.com','Finance','Payments Analyst','E001','ACTIVE','2023-04-10',NULL),
+  ('E005','Vikram','Singh','vikram.singh@example.com','Finance','Accountant','E001','TERMINATED','2022-01-10','2026-09-30'),
+  ('E006','Karan','Malhotra','karan.malhotra@example.com','IT','IT Manager',NULL,'ACTIVE','2019-08-19',NULL),
+  ('E007','Ananya','Rao','ananya.rao@example.com','IT','System Administrator','E006','ACTIVE','2021-01-11',NULL),
+  ('E008','Dev','Patel','dev.patel@example.com','IT','Software Developer','E006','ACTIVE','2022-07-04',NULL),
+  ('E009','Isha','Kapoor','isha.kapoor@example.com','IT','Software Developer','E006','ACTIVE','2024-01-15',NULL),
+  ('E010','Manish','Joshi','manish.joshi@example.com','IT','System Administrator','E006','TERMINATED','2021-09-06','2026-08-31'),
+  ('E011','Neha','Verma','neha.verma@example.com','HR','HR Manager',NULL,'ACTIVE','2018-05-21',NULL),
+  ('E012','Rahul','Desai','rahul.desai@example.com','HR','HR Executive','E011','ACTIVE','2021-11-01',NULL),
+  ('E013','Pooja','Shah','pooja.shah@example.com','HR','HR Executive','E011','ACTIVE','2023-02-13',NULL),
+  ('E014','Arjun','Reddy','arjun.reddy@example.com','HR','Recruiter','E011','ACTIVE','2024-06-03',NULL),
+  ('E015','Simran','Kaur','simran.kaur@example.com','Sales','Sales Manager',NULL,'ACTIVE','2019-10-07',NULL),
+  ('E016','Aditya','Kulkarni','aditya.kulkarni@example.com','Sales','Sales Executive','E015','ACTIVE','2022-03-21',NULL),
+  ('E017','Meera','Pillai','meera.pillai@example.com','Sales','Sales Executive','E015','ACTIVE','2022-09-12',NULL),
+  ('E018','Nikhil','Bansal','nikhil.bansal@example.com','Sales','Account Manager','E015','ACTIVE','2023-08-28',NULL),
+  ('E019','Tanya','Sethi','tanya.sethi@example.com','Sales','Sales Executive','E015','ACTIVE','2024-03-18',NULL),
+  ('E020','Harsh','Vora','harsh.vora@example.com','Sales','Account Manager','E015','ACTIVE','2025-01-06',NULL);
